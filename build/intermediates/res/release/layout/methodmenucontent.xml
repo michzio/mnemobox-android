@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+     xmlns:compat="http://schemas.android.com/apk/res-auto">
+    <!-- Single menu item
+         Set id, icon and Title for each menu item
+    -->
+    <item android:id="@+id/menu_details"
+          android:title="@string/showdetails" />
+    <item android:id="@+id/menu_share"
+          android:icon="@drawable/shareicon"
+          android:title="@string/shareword" />
+    <item android:id="@+id/menu_remember"
+          android:icon="@drawable/shareicon"
+          android:title="@string/addtorememberme" />
+    <item android:id="@+id/menu_forgotten_words"
+          compat:showAsAction="always"
+   		  android:icon="@drawable/hand_down"
+        />
+    <item android:id="@+id/menu_learned_word"
+   		 android:title="Add to Learned" />
+        />
+    <item android:id="@+id/raport_an_error"
+          android:title="Raport an error" />
+</menu><!-- From: file:/Users/michzio/Documents/android/ElectorOffline/res/layout/methodmenucontent.xml -->

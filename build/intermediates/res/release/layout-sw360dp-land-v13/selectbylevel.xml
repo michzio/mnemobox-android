@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#FFFFFF"
+    >
+
+<TableLayout 
+android:id="@+id/SelectByLevelActivityTable"
+android:layout_centerHorizontal="true"
+android:layout_height="wrap_content"
+android:layout_width="wrap_content"
+android:layout_marginTop="15dp"
+>
+<TableRow  android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+ <Button
+        android:id="@+id/levelA1Btn"
+        android:contentDescription="Vocobulary"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:background="@+drawable/buttonColor"
+        android:layout_margin="5dp"
+        android:text="A1"
+         android:textColor="#FFFFFF"
+         android:textSize="25dp"
+  />
+   <Button
+        android:id="@+id/levelB1Btn"
+        android:contentDescription="Tasks"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:background="@+drawable/buttonColor"
+        android:layout_margin="5dp"
+        android:text="B1"
+         android:textColor="#FFFFFF"
+         android:textSize="25dp"
+        />
+  <Button
+        android:id="@+id/levelC1Btn"
+        android:contentDescription="Forgotten Words"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:background="@+drawable/buttonColor"
+        android:layout_margin="5dp"
+        android:text="C1"
+         android:textColor="#FFFFFF"
+         android:textSize="25dp"
+        />
+ </TableRow>
+ <TableRow  android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+  <Button
+        android:id="@+id/levelA2Btn"
+        android:contentDescription="Dictionary"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:background="@+drawable/buttonColor"
+        android:layout_margin="5dp"
+        android:text="A2"
+         android:textColor="#FFFFFF"
+         android:textSize="25dp"
+        />
+  <Button
+        android:id="@+id/levelB2Btn"
+        android:contentDescription="Profile"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:background="@+drawable/buttonColor"
+        android:layout_margin="5dp"
+         android:text="B2"
+          android:textColor="#FFFFFF"
+          android:textSize="25dp"
+        />
+  <Button
+        android:id="@+id/levelC2Btn"
+        android:contentDescription="Words to Remember"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:background="@+drawable/buttonColor"
+        android:layout_margin="5dp"
+        android:text="C2"
+        android:textColor="#FFFFFF"
+        android:textSize="25dp"
+        />
+  </TableRow>
+</TableLayout>
+</RelativeLayout>
+
+<!-- From: file:/Users/michzio/Documents/android/ElectorOffline/res/layout-sw360dp-land/selectbylevel.xml -->

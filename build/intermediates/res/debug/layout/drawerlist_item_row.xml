@@ -1,0 +1,52 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+   
+    ><!--  android:background="@drawable/drawer_item_shape2" -->
+   <RelativeLayout
+    android:id="@+id/drawerlist_item_innerlayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="6dp" 
+    android:layout_marginLeft="15dp"
+    android:layout_marginRight="15dp"
+    android:layout_marginBottom="0dp"
+    android:background="@drawable/drawer_item_shape">
+
+    <ImageView
+        android:id="@+id/drawerlist_item_icon"
+        android:layout_alignParentTop="true"
+        android:layout_height="30dp"
+        android:layout_width="30dp"
+        android:gravity="center_vertical"
+        android:layout_marginRight="8dp"
+     />
+
+    <TextView
+        android:id="@+id/drawerlist_item_title"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignWithParentIfMissing="true"
+        android:layout_toRightOf="@id/drawerlist_item_icon"
+        android:gravity="center_vertical"
+        android:text="@string/example_item_title"
+        android:textSize="16sp"
+        android:textColor="@color/darkGray"
+        android:textStyle="bold"
+        />    
+    <TextView
+        android:id="@+id/drawerlist_item_subtitle"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/drawerlist_item_title"
+        android:layout_toRightOf="@id/drawerlist_item_icon"
+        android:singleLine="true"
+        android:text="@string/example_description"
+        android:textSize="12sp"
+        android:visibility="gone" />
+	</RelativeLayout> 
+</LinearLayout><!-- From: file:/Users/michzio/Documents/android/ElectorOffline/res/layout/drawerlist_item_row.xml -->

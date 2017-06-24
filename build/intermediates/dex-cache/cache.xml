@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<pre-dex-items>
+
+    <item
+        dex="/Users/michzio/Documents/android/ElectorOffline/build/intermediates/pre-dexed/debug/internal_impl-21.0.2-70bbd3f1e91b9f5d57c9971f31e298cf9c87bbb8.jar"
+        jar="/Users/michzio/Documents/android/ElectorOffline/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.2/libs/internal_impl-21.0.2.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="962e8b12569c56dbdcf8367eb4eac8bb129cd18f"/>
+    <item
+        dex="/Users/michzio/Documents/android/ElectorOffline/build/intermediates/pre-dexed/debug/classes-05aea7bb16e1bf2933d3835baa4e632bd4e2cfff.jar"
+        jar="/Users/michzio/Documents/android/ElectorOffline/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.2/classes.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="d1bf02de1c56d942e7a9d093b8610ba1ef4128e3"/>
+    <item
+        dex="/Users/michzio/Documents/android/ElectorOffline/build/intermediates/pre-dexed/debug/GoogleAdMobAdsSdk-6.1.0-55c76c11c6f604435f346e824281f13a374d7489.jar"
+        jar="/Users/michzio/Documents/android/ElectorOffline/libs/GoogleAdMobAdsSdk-6.1.0.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="0d7313ca1a34c9ce2de798006511a4b6bc26b90b"/>
+    <item
+        dex="/Users/michzio/Documents/android/ElectorOffline/build/intermediates/pre-dexed/debug/support-annotations-21.0.2-dc615e1f272d49760975b3652c5b646c8dbe52a5.jar"
+        jar="/Users/michzio/adt-bundle-mac-x86_64-20140702/sdk/extras/android/m2repository/com/android/support/support-annotations/21.0.2/support-annotations-21.0.2.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="99373741f99a0556ee293c41e8faa1ca3ae8a4e6"/>
+    <item
+        dex="/Users/michzio/Documents/android/ElectorOffline/build/intermediates/pre-dexed/debug/classes-d4b79bb4bdc48a581a7c4c40bf86e6e1eb44f919.jar"
+        jar="/Users/michzio/Documents/android/ElectorOffline/build/intermediates/exploded-aar/com.android.support/appcompat-v7/18.0.0/classes.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="8f11f56e350eacabf2273f646d981356eea0ed77"/>
+
+</pre-dex-items>

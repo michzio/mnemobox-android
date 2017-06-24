@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DrawerMenu> 
+	<Group title="Menu" subtitle="Menu" icon="">
+	    <item id="0" icon="vocabulary" subtitle="Słownictwo" class="pl.electoroffline.WordsetCategoriesActivity">Vocabulary</item>
+	    <item id= "1" icon="dictionary" subtitle="Słownik" class="pl.electoroffline.DictActivity">Dictionary</item>
+	</Group>    
+    <Group title="Profile" subtitle="Profil" icon="">
+	     <item id="2" icon="profile" subtitle="Twój profil" class="pl.electoroffline.ProfileInfoActivity">Profile Info</item>
+	     <item id="3" icon="learned" subtitle="Nauczone słówka" class="pl.electoroffline.LearnedWordsFragment">Learned Words</item>
+	     <item id="4" icon="forgotten" subtitle="Zapomniane słówka" class="pl.electoroffline.ForgottenFragment">Forgotten Words</item>
+	     <item id="5" icon="mywords" subtitle="Moje słówka" class="pl.electoroffline.RememberMeFragment">My Words</item>
+	     <item id="6" icon="userwordsets" subtitle="Zestawy Użytkownika" class="pl.electoroffline.UserWordsetsActivity">User Wordsets</item>
+	     <item id="7" icon="history" subtitle="Historia Nauki" class="pl.electoroffline.LearnHistoryActivity">Learning History</item>
+	</Group>
+	<Group title="More" subtitle="Więcej" icon="">
+	    <item id="8" icon="youtube" subtitle="Angielski Youtube" class="">English on Youtube</item>
+	</Group> 
+</DrawerMenu>

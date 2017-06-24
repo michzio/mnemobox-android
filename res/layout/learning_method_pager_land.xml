@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:orientation="vertical"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:background="@drawable/london">
+	<pl.electoroffline.CustomViewPager
+	    android:id="@+id/learningMethodPager"
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent" />
+	<RelativeLayout
+	   android:layout_width="match_parent"
+	   android:layout_height="match_parent"
+	   android:id="@+id/endOfPresentation"
+	   android:visibility="gone">
+	   <LinearLayout
+	       android:orientation="vertical"
+	       android:layout_width="match_parent"
+	       android:layout_height="wrap_content"
+	       android:id="@+id/learning_stats"
+	       android:layout_alignParentTop="true">
+	        <TextView 
+	            android:text="Koniec zestawu słówek!"
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            />
+	        <TextView 
+	            android:text="Koniec zestawu słówek!"
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            />
+	        <TextView 
+	            android:text="Koniec zestawu słówek!"
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            />
+	        <TextView 
+	            android:text="Koniec zestawu słówek!"
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            />
+	   </LinearLayout>
+	   <LinearLayout
+	       android:orientation="vertical"
+	       android:layout_width="match_parent"
+	       android:layout_height="match_parent"
+	       android:gravity="center"
+	       android:layout_below="@+id/learning_stats">
+	        <Button 
+		        android:id="@+id/reloadPresentation"
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:text="@string/reload_button"
+		        android:textColor="#FFFFFF"
+		        android:background="@+drawable/rounded_button"
+		        android:paddingTop="15dp"
+		        android:paddingBottom="15dp"
+		        android:paddingLeft="15dp"
+		        android:paddingRight="15dp"
+		        android:layout_margin="30dp"
+		        />
+	        <Button 
+		        android:id="@+id/comebackPresentation"
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:text="@string/come_back"
+		        android:textColor="#FFFFFF"
+		        android:background="@+drawable/rounded_button"
+		        android:paddingTop="15dp"
+		        android:paddingBottom="15dp"
+		        android:paddingLeft="15dp"
+		        android:paddingRight="15dp"
+		        android:layout_marginBottom="30dp"
+		        android:layout_marginLeft="30dp"
+				android:layout_marginRight="30dp"
+		        />
+        </LinearLayout>
+   </RelativeLayout>
+</LinearLayout>

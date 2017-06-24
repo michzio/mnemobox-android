@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/london"
+     android:id="@+id/mainSwipeLayout"
+    >
+
+<TableLayout 
+android:id="@+id/MainActivityTable"
+android:layout_centerHorizontal="true"
+android:layout_height="wrap_content"
+android:layout_width="wrap_content"
+android:layout_marginTop="10dp"
+>
+<TableRow android:id="@+id/TableRow01" android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+ <Button
+        android:id="@+id/vocabularyBtn"
+        android:contentDescription="Vocobulary"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:background="@+drawable/vocabulary"
+        android:layout_margin="5dp"
+        android:text="@string/vocabulary"
+         android:textColor="#FFFFFF"
+         android:gravity="bottom|center_horizontal"
+  />
+ <Button
+        android:id="@+id/dictBtn"
+        android:contentDescription="Dictionary"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:background="@+drawable/dictionary"
+        android:layout_margin="5dp"
+        android:text="@string/dictionary"
+         android:textColor="#FFFFFF"
+         android:gravity="bottom|center_horizontal"
+        />
+  <Button
+        android:id="@+id/learnedBtn"
+        android:contentDescription="Learned Words"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:background="@+drawable/learned"
+        android:layout_margin="5dp"
+        android:text="@string/learned"
+         android:textColor="#FFFFFF"
+         android:gravity="bottom|center_horizontal"
+        />
+ </TableRow>
+ <TableRow android:id="@+id/TableRow02" android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+ 
+  
+  <Button
+        android:id="@+id/profileBtn"
+        android:contentDescription="Profile"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:background="@+drawable/profile" 
+        android:layout_margin="5dp"
+         android:text="@string/profile"
+          android:textColor="#FFFFFF"
+          android:gravity="bottom|center_horizontal"
+        />
+  <Button
+        android:id="@+id/forgottenBtn"
+        android:contentDescription="Forgotten Words"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:background="@+drawable/forgotten"
+        android:layout_margin="5dp"
+        android:text="@string/forgotten"
+         android:textColor="#FFFFFF"
+         android:gravity="bottom|center_horizontal"
+        />
+  
+  <Button
+        android:id="@+id/toRememberBtn"
+        android:contentDescription="Words to Remember"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+       android:background="@+drawable/mywords" 
+        android:layout_margin="5dp"
+        android:text="@string/mywords"
+        android:textColor="#FFFFFF"
+        android:gravity="bottom|center_horizontal"
+        />
+  </TableRow>
+</TableLayout>
+</RelativeLayout>
+
+<!-- From: file:/Users/michzio/Documents/android/ElectorOffline/res/layout-sw360dp-land/main.xml -->

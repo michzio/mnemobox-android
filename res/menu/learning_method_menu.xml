@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+     xmlns:compat="http://schemas.android.com/apk/res-auto">
+    <!-- Single menu item
+         Set id, icon and Title for each menu item
+    -->
+    <item android:id="@+id/menu_forgotten_words"
+          compat:showAsAction="always"
+   		  android:icon="@drawable/hand_down"
+   		  android:orderInCategory="00001" />
+    <item
+	    android:id="@+id/menu_overflow"
+	    android:icon="@drawable/ic_action_overflow"
+	    android:orderInCategory="11111"
+	    compat:showAsAction="always">
+      <menu>
+		    <item android:id="@+id/menu_details"
+		          android:icon="@drawable/ic_action_paste"
+		          android:title="@string/showdetails"
+		          compat:showAsAction="never" />
+		    <item android:id="@+id/menu_share"
+		          android:icon="@drawable/ic_action_share"
+		          android:title="@string/shareword"
+		          compat:showAsAction="never" />
+		    <item android:id="@+id/menu_remember"
+		          android:icon="@drawable/ic_action_new_label"
+		          android:title="@string/addtorememberme"
+		          compat:showAsAction="never" />
+		    <item android:id="@+id/menu_learned_word"
+		          android:icon="@drawable/ic_action_accept"
+		   		  android:title="@string/addtolearned"
+		   		  compat:showAsAction="never" />
+		    <item android:id="@+id/raport_an_error"
+		          android:icon="@drawable/ic_action_error"
+		          android:title="@string/report_an_error"
+		          compat:showAsAction="never" />
+	 </menu>
+   </item>
+</menu>

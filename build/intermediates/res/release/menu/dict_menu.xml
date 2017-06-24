@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+     xmlns:app="http://schemas.android.com/apk/res-auto"
+>
+<item
+        android:id="@+id/englishBtn"
+        android:title="@string/dict_foreign"
+        app:showAsAction="always|withText"
+  />
+<item 
+    android:id="@+id/polishBtn"
+    android:title="@string/dict_native"
+    app:showAsAction="always|withText"    
+  />
+<item 
+    android:id="@+id/dictStorageBtn"
+    app:showAsAction="always"
+    android:icon="@drawable/dict_storage"
+  />
+</menu><!-- From: file:/Users/michzio/Documents/android/ElectorOffline/res/menu/dict_menu.xml -->

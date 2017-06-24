@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+   	  xmlns:app="http://schemas.android.com/apk/res-auto"
+>
+<item
+        android:id="@+id/actionFlashCards"
+        android:title="Flash Cards"
+        android:showAsAction="collapseActionView"
+    />
+<item
+        android:id="@+id/actionSimpleRepetition"
+        android:title="Simple Repetition"
+        android:showAsAction="collapseActionView"
+    />
+<item
+        android:id="@+id/actionPresentation"
+        android:title="Presentation"
+        android:showAsAction="collapseActionView"
+    />
+<item
+        android:id="@+id/actionRepetition"
+        android:title="Repetition"
+        android:showAsAction="collapseActionView"
+    />
+<item
+        android:id="@+id/actionSpeaking"
+        android:title="Speaking"
+        android:showAsAction="collapseActionView"
+    />
+<item
+        android:id="@+id/actionListening"
+        android:title="Listening"
+        android:showAsAction="collapseActionView"
+    />
+<item
+        android:id="@+id/actionChoosing"
+        android:title="Choosing"
+        android:showAsAction="collapseActionView"
+    />
+<item
+        android:id="@+id/actionCartons"
+        android:title="Cartons"
+        android:showAsAction="collapseActionView"
+    />
+</menu><!-- From: file:/Users/michzio/Documents/android/ElectorOffline/res/menu/learning_method_actions.xml -->

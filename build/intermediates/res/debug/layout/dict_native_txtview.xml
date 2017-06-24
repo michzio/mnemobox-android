@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?> 
+<TextView  xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/dictPolishTxtView"
+    android:text="@string/native_lang"
+    android:textColor="@drawable/buttonColor"
+    style="@style/dictMenuItem"
+    android:layout_height="wrap_content"
+    android:layout_width="wrap_content"
+	android:layout_gravity="end">
+</TextView><!-- From: file:/Users/michzio/Documents/android/ElectorOffline/res/layout/dict_native_txtview.xml -->

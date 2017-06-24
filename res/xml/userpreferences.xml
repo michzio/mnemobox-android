@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:elector="http://schemas.android.com/apk/res/pl.electoroffline">
+    <PreferenceCategory android:title="@string/language_settings">
+        <ListPreference 
+            android:key="KEY_NATIVE_LANGUAGE_PREFERENCE"
+            android:title="@string/native_language_title"
+            android:dialogTitle="@string/native_language_title"
+            android:summary="@string/native_language_summary"
+            android:entries="@array/native_languages"
+            android:entryValues="@array/native_languages_codes"
+            android:defaultValue="pl"
+            android:layout="@layout/preference"
+           >
+        </ListPreference>
+        <ListPreference
+            android:key="KEY_MENU_LANGUAGE_PREFERENCE"
+            android:title="@string/menu_language_title"
+            android:dialogTitle="@string/menu_language_title"
+            android:summary="@string/menu_language_summary"
+            android:entries="@array/menu_languages"
+            android:entryValues="@array/menu_languages_codes"
+            android:defaultValue="en"
+            android:layout="@layout/preference"
+            >
+           
+        </ListPreference>
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/sound_settings">
+       <pl.electoroffline.SoundVolumePreference
+        android:key="KEY_SOUND_VOLUME_PREFERENCE"
+		android:title="@string/sound_volume"
+		android:dialogTitle="@string/sound_volume"
+		android:summary="@string/sound_volume_summary"
+		android:persistent="true"
+		android:defaultValue="50"
+		elector:min="0"
+		android:max="100"
+		elector:unitsLeft=""
+       	elector:unitsRight="" 
+       	android:layout="@layout/preference_widget_bottom"
+       	/>
+       <CheckBoxPreference 
+           android:key="KEY_ENABLE_PRONUNCIATION_PREFERENCES"
+           android:defaultValue="true"
+           android:title="@string/enable_pronunciation"
+           android:dialogTitle="@string/enable_pronunciation"
+           android:summary="@string/enable_pronunciation_summary"
+           android:layout="@layout/preference"
+           ></CheckBoxPreference>
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/application_settings" >
+	    <PreferenceScreen 
+	        android:title="@string/sync_settings"
+	        android:summary="@string/sync_settings_summary"
+	        android:layout="@layout/preference">
+	        <intent android:action="android.settings.SOUND_SETTINGS" />
+	    </PreferenceScreen>
+	    <PreferenceScreen 
+	        android:title="@string/notification_settings"
+	        android:summary="@string/notification_settings_summary"
+	        android:layout="@layout/preference">
+	        <intent android:action="android.settings.SOUND_SETTINGS" />
+	    </PreferenceScreen>
+	</PreferenceCategory>
+</PreferenceScreen>

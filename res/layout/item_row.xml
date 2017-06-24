@@ -1,0 +1,24 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content"
+  android:orientation="horizontal"
+android:id="@+id/rowRating" 
+
+>
+<TextView 
+ android:id="@+id/item_name"   
+ android:layout_width="wrap_content"
+ android:minWidth="230dp"
+ android:layout_height="wrap_content"  
+ android:padding="10dp"  
+ android:textSize="16sp" >  
+</TextView>  
+<TextView 
+ android:id="@+id/item_quantity"   
+ android:layout_width="wrap_content"
+ android:minWidth="230dp"
+ android:layout_height="wrap_content"  
+ android:padding="10dp"  
+ android:textSize="16sp" >  
+</TextView> 
+</LinearLayout>

@@ -1,0 +1,28 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="match_parent"
+  android:layout_height="wrap_content"
+  android:orientation="vertical"
+  android:id="@+id/postItEdition" 
+>
+	<TextView 
+	 android:id="@+id/postEditionLabel"   
+	 android:layout_width="match_parent"
+	 android:layout_height="wrap_content"  
+	 android:layout_margin="15dp"  
+	 android:textSize="16sp"
+	 android:text="@string/post_edition_label"
+	 />  
+	<EditText 
+	    android:id="@+id/postEditionField"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:inputType="textMultiLine"
+        android:lines="5"
+        android:minLines="4"
+        android:maxLines="8"
+        android:gravity="top|left"
+        android:scrollbars="vertical" 
+	/>
+</LinearLayout>
+<!-- From: file:/Users/michzio/Documents/android/ElectorOffline/res/layout/postit_edition.xml -->

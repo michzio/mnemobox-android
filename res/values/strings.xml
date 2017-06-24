@@ -1,0 +1,404 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+     <!--  Web service URLs  -->
+     <string name="images_url">http://www.mnemobox.com/uploads/images/</string>
+     <string name="lookup_word_url">http://mnemobox.com/webservices/lookupWord.php?from=%1$s&amp;to=%2$s&amp;word=%3$s</string>
+     <string name="recordings_url">http://mnemobox.com/recordings/words/</string>
+     <string name="trace_error_url">http://www.mnemobox.com/webservices/trace_error.php?lang=%1$s&amp;tid=%2$d</string>
+	 <string name="getwordset_url">http://www.mnemobox.com/webservices/getwordset.php?from=%1$s&amp;to=%2$s&amp;wordset=%3$s</string>
+	 <string name="getsystemwordset_url">http://www.mnemobox.com/webservices/getwordset.php?type=systemwordset&amp;from=%1$s&amp;to=%2$s&amp;wordset=%3$d</string>
+	 <string name="getremembermewordset_url">http://www.mnemobox.com/webservices/getwordset.php?type=rememberme&amp;from=%1$s&amp;to=%2$s&amp;wordset=0&amp;uid=%3$d</string>
+	 <string name="getlearnedwordset_url">http://www.mnemobox.com/webservices/getwordset.php?type=learned&amp;from=%1$s&amp;to=%2$s&amp;wordset=0&amp;uid=%3$d</string>
+	 <string name="getselectedwords_url">http://www.mnemobox.com/webservices/getwordset.php?type=selected&amp;from=%1$s&amp;to=%2$s&amp;wordset=0&amp;words=%3$s</string>
+     <string name="history_url">http://www.mnemobox.com/webservices/userHistory.xml.php?from=%1$s&amp;to=%2$s</string>
+	 <string name="money_history_url">http://www.mnemobox.com/webservices/userMoneyHistory.xml.php?from=%1$s&amp;to=%2$s&amp;lang=%3$s&amp;email=%4$s&amp;pass=%5$s</string>
+	 <string name="stats_url">http://www.mnemobox.com/webservices/userStats.xml.php?from=%1$s&amp;to=%2$s&amp;email=%3$s&amp;pass=%4$s</string>
+	 <string name="tasks_url">http://www.mnemobox.com/webservices/userTasks.php?from=%1$s&amp;to=%2$s&amp;email=%3$s&amp;pass=%4$s</string>
+	 <string name="forgotten_url">http://www.mnemobox.com/webservices/userForgotten.xml.php?from=%1$s&amp;to=%2$s&amp;email=%3$s&amp;pass=%4$s</string>
+	 <string name="rememberme_url">http://www.mnemobox.com/webservices/userRememberMeWords.xml.php?from=%1$s&amp;to=%2$s&amp;email=%3$s&amp;pass=%4$s</string>
+	 <string name="learned_url">http://www.mnemobox.com/webservices/userLearnedWords.xml.php?from=%1$s&amp;to=%2$s&amp;email=%3$s&amp;pass=%4$s</string>
+	 <string name="syncforgotten_url">http://www.mnemobox.com/webservices/syncForgottenWords.php</string>
+	 <string name="syncrememberme_url">http://www.mnemobox.com/webservices/syncRememberMeWords.php</string>
+	 <string name="synclearned_url">http://www.mnemobox.com/webservices/syncLearnedWords.php</string>
+	 <string name="userinfo_url">http://www.mnemobox.com/webservices/userProfile.xml.php?email=</string>
+	 <string name="fullaccess_url">http://www.mnemobox.com/webservices/fullAccess.php?from=%1$s&amp;to=%2$s&amp;email=%3$s&amp;pass%4$s&amp;token=95768</string>
+	 <string name="addmnemones_url">http://www.mnemobox.com/webservices/addMnemons.php?email=%1$s&amp;pass=%2$s&amp;m=%3$d&amp;token=95768</string>
+	 <string name="tryunlock_url">http://www.mnemobox.com/webservices/tryUnlock.php?from=%1$s&amp;to=%2$s&amp;email=%3$s&amp;pass=%4$s&amp;lvl=%5$s&amp;wid=%6$d&amp;cost=%7$d</string>
+     <string name="avatars_url">http://www.mnemobox.com/uploads/avatars/</string>
+     <string name="tracehistory_url">http://www.mnemobox.com/webservices/traceHistory.php?from=%1$s&amp;to=%2$s&amp;email=%3$s&amp;pass=%4$s&amp;good=%5$d&amp;bad=%6$d&amp;mode=%7$s&amp;wordset_id=%8$d</string>
+	 <string name="saveforgotten_url">http://www.mnemobox.com/webservices/forgottenWords.php?from=%1$s&amp;to=%2$s&amp;email=%3$s&amp;pass=%4$s&amp;serialData=%5$s</string>
+	 <string name="saverememberme_url">http://www.mnemobox.com/webservices/rememberWord.php?from=%1$s&amp;to=%2$s&amp;email=%3$s&amp;pass=%4$s&amp;wordid=%5$d</string>
+     <string name="dict_url">http://mnemobox.com/dict/</string>
+     <string name="login_url">http://www.mnemobox.com/webservices/loginService.php?email=%1$s&amp;pass=%2$s</string>
+	 <string name="gettranslation_url">http://mnemobox.com/webservices/getTranslation.php?from=%1$s&amp;to=%2$s&amp;translation_id=%3$d</string>
+	 <string name="getcategories_url">http://www.mnemobox.com/webservices/getCategories.php?from=%1$s&amp;to=%2$s</string>
+     <string name="image_pen">http://www.mnemobox.com/images/pen.png</string>
+	 <string name="image_prezentacja">http://www.mnemobox.com/images/prezentacja.png</string>
+	 <string name="image_konwersacja">http://www.mnemobox.com/images/konwersacja.png</string>
+	 <string name="image_dyktando">http://www.mnemobox.com/images/dyktando.png</string>
+	 <string name="image_recording">http://www.mnemobox.com/images/recording.png</string>
+	 <string name="image_wybieracz">http://www.mnemobox.com/images/wybieracz.png</string>
+	 <string name="image_kartoniki">http://www.mnemobox.com/images/kartoniki.png</string>
+	 <string name="check_wordset_access_url">http://www.mnemobox.com/webservices/checkWordsetAccess.php?from=%1$s&amp;to=%2$s&amp;uid=%3$d&amp;wid=%4$d</string>
+     <string name="getwordsetslist_url">http://mnemobox.com/webservices/getWordsetsList.php?from=%1$s&amp;to=%2$s&amp;</string>
+     <string name="word_postits_url">http://www.mnemobox.com/webservices/getContextPostIts.xml.php?from=%1$s&amp;to=%2$s&amp;contextId=%3$d&amp;email=%4$s&amp;pass=%5$s</string>
+	 <string name="save_postit_url">http://www.mnemobox.com/webservices/savePostIts.php?from=%1$s&amp;to=%2$s&amp;serialData=%3$s&amp;email=%4$s&amp;pass=%5$s</string>
+     <string name="register_user_url">http://mnemobox.com/webservices/registerUser.php?email=%1$s&amp;pass=%2$s&amp;fn=%3$s&amp;ln=%4$s</string>
+     <string name="app_market_url">https://market.android.com/details?id=pl.electoroffline</string>
+     <string name="check_paid_up_valid_thru_url">http://mnemobox.com/webservices/paidUpAccessValidThru.php?email=%1$s&amp;pass=%2$s&amp;token=95768</string>
+     <string name="synclearninghistory_url">http://mnemobox.com/webservices/syncLearningHistory.php?from=%1$s&amp;to=%2$s</string>
+     <string name="synclearningstats_url">http://mnemobox.com/webservices/syncLearningStats.php?from=%1$s&amp;to=%2$s&amp;email=%3$s&amp;pass=%4$s</string>
+     <string name="getlearningstats_url">http://mnemobox.com/webservices/getLearningStats.xml.php?from=%1$s&amp;to=%2$s&amp;email=%3$s&amp;pass=%4$s</string>
+     <!--  Basic app info -->
+     <string name="app_name">elector.pl: ENGLISH FREE</string>
+     <string name="app_package">pl.electoroffline</string>
+     <string name="app_title">ENGLISH OFFLINE</string>
+     <string name="facebook_app_id">960619933952866</string>
+     <string name="foreign_code">EN</string>
+     <string name="native_code">PL</string>
+     <string name="foreign_code_lower">en</string>
+     <string name="native_code_lower">pl</string>
+     <string name="english">English</string>
+     <string name="domain_name">elector.pl</string>
+     <string name="main_drawer_open">Drawer Open</string>
+     <string name="main_drawer_close">Drawer Close</string>
+     <string name="buyproduct">100 000 mnemoney</string>
+     <string name="buyproduct2">25 000 mnemoney</string>
+     <string name="buyproduct3">Full Access</string>
+     <string name="help_url">help_url</string>
+     <string name="learn_more">learn_more</string>
+     <string name="restoring_transactions">restoring_transactions</string>
+     <string name="edit_payload_accept">edit_payload_accept</string>
+     <string name="edit_payload_clear">edit_payload_clear</string>
+     <string name="elector_logo">Elector Logo</string>
+     <string name="feedback_subject">ENGLISH OFFLINE: Feedback</string>
+     <string name="feedback_email">michzio\@hotmail.com</string>
+      <!-- App messages need to be translated -->
+	  <string name="cannot_connect_title">An error has been encountered while connecting to internet&#8230;</string>
+     <string name="cannot_connect_message">An error has been encountered while connecting to internet&#8230;</string>
+     <string name="billing_not_supported_title">Payments are unavailable &#8230;</string>
+     <string name="billing_not_supported_message">Payments are unavailable &#8230;</string>
+     <string name="subscriptions_not_supported_title">Payments are unavailable &#8230;</string>
+     <string name="subscriptions_not_supported_message">Payments are unavailable &#8230;</string>
+     <string name="dict_not_found">given keyword hasn&#8217;t been found in dictionary&#8230;</string>
+     <string name="dict_fetching_msg">retrieve suggestions&#8230;</string>
+	 <string name="no_word">>There\'s no such word</string>
+	 <string name="no_word_to_show_details">The word to show details has not been found!</string>
+	 <string name="no_word_to_share">>The word to share has not been found!</string>
+	 <string name="no_word_to_remember">>The word to remember has not been found!</string>
+	 <string name="no_word_to_learned">>The word could not be added to learned words!</string>
+	 <string name="internet_lost">Internet Connection Lost!</string>
+	 <string name="history_times">Times: </string>
+	 <string name="history_effectivness">Effectiveness: </string>
+	 <string name="history_last_access">Last Access: </string>
+	 <string name="login_toast">You need to sign in or sign up in order to use this app.</string>
+	 <string name="main_singing_out">user has been sign out&#8230;</string>
+	 <string name="money_transaction">Transaction: </string>
+	 <string name="money_amount">Amount: </string>
+	 <string name="money_date">Date: </string>
+	 <string name="payments_error_mnemoney">An error was encountered while saving mnemoney.. Please contact technical support on mnemobox.com</string>
+	 <string name="payments_error_fullaccess">An error was encountered while attaining full access.. Please contact technical support on mnemobox.com</string>
+	 <string name="payments_error_tryunlock">An error was encountered while unlocking access&#8230; Please contact technical support on mnemobox.com</string>
+	 <string name="profileinfo_fullaccess">Full Access</string>
+	 <string name="stats_header">Learning Statistics</string>
+	 <string name="stats_badans">Bad Answers</string>
+	 <string name="stats_goodans">Good Answers</string>
+	 <string name="stats_effectivness">Effectivness</string>
+	 <string name="signup_confirmation">Your account has been created. Please sign in. Confirmation has been sent to your email address.</string>
+	 <string name="error_savinghistory">If you like this app, please add positive feedback in Google Play. Support our development!</string>
+	 <string name="error_savingrememberme">If you like this app, please add positive feedback in Google Play. Support our development!</string>
+	 <string name="error_savingforgotten">If you like this app, please add positive feedback in Google Play. Support our development!</string>
+	 <string name="share_header">mnemobox.com - Learn English Language with Google Play app.</string>
+	 <string name="share_entitle">Engilsh word: </string>
+	 <string name="share_promo">Share word with your friends.</string>
+	 <string name="task_added">Added: </string>
+	 <string name="task_category">Category: </string>
+	 <string name="category_internet_lost">Internet Connection Lost&#8230; Words Sets could not be synchronized.</string>
+	 <string name="wordset_level">Wordset level: </string>
+	 <string name="mnemoney_label"> mnemoney</string>
+	 <string name="mnemoney_shortage">You don\'t have enough mnemoney. Purchase mnemoney.</string>
+	 <string name="error_unlocking">You must have previously unlocked sets of words on lower levels.</string>
+	 <string name="unexpected_error">Unexpected error, please reset app&#8230;</string>
+	 <string name="dict_hint">cherry</string>
+	 <string name="dyktando_hint">hint?</string>
+	 <string name="dyktando_foreign">In english: </string>
+	 <string name="dyktando_native">In polish: </string>
+	 <string name="reload_button"> Reload words</string>
+	 <string name="come_back"> Come back </string>
+	 <string name="forgotten_header">Forgotten Words</string>
+	 <string name="kartoniki_invert"> Invert </string>
+	 <string name="learnhistory_header"> Learning History </string>
+	 <string name="login_email">Email address: </string>
+	 <string name="password">Password: </string>
+	 <string name="signin"> Sign in </string>
+	 <string name="signup"> Sign up </string>
+	 <string name="use_anonymously">Without logging in</string>
+	 <string name="vocabulary">Vocabulary</string>
+	 <string name="dictionary">Dictionary</string>
+	 <string name="learned">Learned Words</string>
+	 <string name="profile">Profile</string>
+	 <string name="forgotten">Forgotten</string>
+	 <string name="forgotten_words">Forgotten Words</string>
+	 <string name="mywords">My Words</string>
+	 <string name="words_to_remember">Words To Remember</string>
+	 <string name="bylevels">By Levels&#8230;</string>
+	 <string name="signout">Sign out</string>
+	 <string name="showdetails">Show Details</string>
+	 <string name="shareword">Share Word</string>
+	 <string name="addtorememberme">Add to Remember Me</string>
+	 <string name="addtolearned">Add To Learned</string>
+	 <string name="report_an_error">Report an error</string>
+	 <string name="moneyhistory_header">Purchase History</string>
+	 <string name="odblokuj_extendedaccess">Get Extended Access&#8230;</string>
+	 <string name="odblokuj_desc">In order to buy mnemoney select one of the option below and pay with Google Wallet. In spite of virtual currency you can also get full access. Mnemoney enable you to unlock sets of vocabulary on each available platform.</string>
+	 <string name="payload_edit">Payload Edit Button</string>
+	 <string name="subscription_edit">Subscription Edit Button</string>
+	 <string name="paywithgoogle">Pay with Google Wallet</string>
+	 <string name="currentmnemoney">Your mnemoney amount: </string>
+	 <string name="nodata">no data</string>
+	 <string name="name">Name</string>
+	 <string name="defaultemail">nick@email.com</string>
+	 <string name="basicinfo">Basic Info </string>
+	 <string name="age">Age: </string>
+	 <string name="city">City: </string>
+	 <string name="empty">no data</string>
+	 <string name="gadugadu">GaduGadu: </string>
+	 <string name="skype">Skype: </string>
+	 <string name="phone">Phone: </string>
+	 <string name="settings">Account Settings </string>
+	 <string name="accounttype">Account Type: </string>
+	 <string name="basictype">Basic</string>
+	 <string name="yourlevel">Your level:</string>
+	 <string name="getfullaccess">Get Full Access</string>
+	 <string name="profileinfo">Profile Info</string>
+	 <string name="statistics">Statistics</string>
+	 <string name="history">History</string>
+	 <string name="money">Money</string>
+	 <string name="rememberme_header">Remember Me Words</string>
+	 <string name="first_name">First Name:</string>
+	 <string name="last_name">Last Name:</string>
+	 <string name="confirm_password">Confirm Password:</string>
+	 <string name="your_tasks">Your Tasks</string>
+	 <string name="no_task">You don\'t have any tasks&#8230; Add tasks on mnemobox.com </string>
+	 <string name="words_list">Words List</string>
+	 <string name="flashcards">Flash Cards</string>
+	 <string name="simplerepetition">Simple Repetition</string>
+	 <string name="presentation">Presentation</string>
+	 <string name="repetition">Repetition</string>
+	 <string name="speaking">Speaking</string>
+	 <string name="listening">Listening</string>
+	 <string name="choosing">Choosing</string>
+	 <string name="cartons">Cartons</string>
+	 <string name="unlockwordset"> Unlock Wordset </string>
+	 <string name="toast_unlock_error">You don&#8217;t have access to this wordset. In order to activate the wordset click &#8216;UNLOCK&#8217;.</string>
+	 <string name="needed_mnemoney">Needed mnemoney: </string>
+	 <string name="tysiacmnemonow">1000 mnemoney</string>
+	 <string name="youhave">You have: </string>
+	 <string name="zeromnemonow">0 mnemoney</string>
+	 <string name="hundredkilo_toast">You get 100k mnemoney. Transaction code: </string>
+	 <string name="twentyfifthkilo_toast">You get 25k mnemoney. Transaction code:  </string>
+	 <string name="fullaccess_toast">You get full access subscription. Transaction code: </string>
+	 <string name="payment_error">An error has encountered. Please contact with us. Transaction code: </string>
+	 <string name="wordsets_list_internet_lost">Internet Connection Lost&#8230; Words Sets could not be synchronized.</string>
+	 <string name="synchronizeWords">Synchronize Words</string>
+	 <string name="rememberme_title">Remember Me Words</string>
+	 <string name="learned_words_header">Learned Words</string>
+	 <string name="choose_account">Choose an account</string>
+	 <string name="ok">OK</string>
+	 <string name="cancel">Cancel</string>
+	 <string name="add_account">Add account</string>
+	 <string name="user_money_value">0</string>
+	 <string name="age_value">00</string>
+	 <string name="user_level_value">A1</string>
+	 <string name="card11">Card on position (1,1)</string>
+	 <string name="card12">Card on position (1,2)</string>
+	 <string name="card13">Card on position (1,3)</string>
+	 <string name="card21">Card on position (2,1)</string>
+	 <string name="card22">Card on position (2,2)</string>
+	 <string name="card23">Card on position (2,3)</string>
+	 <string name="card31">Card on position (3,1)</string>
+	 <string name="card32">Card on position (3,2)</string>
+	 <string name="card33">Card on position (3,3)</string>
+	 <string name="card41">Card on position (4,1)</string>
+	 <string name="card42">Card on position (4,2)</string>
+	 <string name="card43">Card on position (4,3)</string>
+	 <string name="cancel_deletion">Cancel</string>
+	 <string name="confirm_deletion">Delete</string>
+	 <string name="no_sentences_label">There aren&#8217;t any sentences&#8230;</string>
+	 <string name="example_group_title">Example group title</string>
+	 <string name="example_description">Example description</string>
+	 <string name="example_item_title">Example item title</string>
+	 <string name="details_action">Details</string>
+	 <string name="delete_action">Delete</string>
+	 <string name="swipe_instruction">swipe to get more</string>
+	 <string name="english_lang">English</string>
+	 <string name="german_lang">German</string>
+	 <string name="spanish_lang">Spanish</string>
+	 <string name="italian_lang">Italian</string>
+	 <string name="french_lang">French</string>
+	 <string name="russian_lang">Russian</string>
+	 <string name="polish_lang">Polish</string>
+	 <string name="turkey_lang">Turkey</string>
+	 <string name="arabic_lang">Arabic</string>
+	 <string name="romanian_lang">Romanian</string>
+	 <string name="portuguese_lang">Portuguese</string>
+	 <string name="dutch_lang">Dutch</string>
+	 <string name="turkish_lang">Turkish</string>
+	 <string name="default_email">your@email.com</string>
+	 <string name="no_name">no name</string>
+	 <string name="header_sign_in">Sign In +</string>
+	 <string name="header_sync">and sync with elector.pl</string>
+	 <string name="post_edition_label">Add new or edit existing post text:</string>
+	 <string name="post_author_decoration">~@</string>
+	 <string name="level_A1">A1</string>
+	 <string name="level_A2">A2</string>
+	 <string name="level_B1">B1</string>
+	 <string name="level_B2">B2</string>
+	 <string name="level_C1">C1</string>
+	 <string name="level_C2">C2</string>
+	 <string name="edit_post_button">ADD YOUR POST</string>
+	 <string name="default_foreign_word">foreign</string>
+	 <string name="default_transcription">transcription</string>
+	 <string name="default_native_word">native</string>
+	 <string name="ask_to_connect_forgotten_words">There are %1$d forgotten words that needs to be loaded from online service. Do you want to connect to the Internet?</string>
+	 <string name="connect_now">Yes, connect now!</string>
+	 <string name="forgotten_words_connection_failed">Trying to connect to the Internet failed! Could not load remaining %1$d forgotten words due to lack of Internet connection.</string>
+	 <string name="no_button">No</string>
+	 <string name="yes_button">Yes</string>
+	 <string name="forgotten_words_no_button">Could not load remaining %1$d forgotten words due to lack of Internet connection.</string>
+	 <string name="all_forgotten_words_loaded">All forgotten words has been loaded correctly.</string>
+	 <string name="error_forgotten_words_loading">Some error occurred while loading forgotten words from online service. Check the Internet connection!</string>
+	 <string name="wait_words_loading">Wait! Words loading&#8230;</string>
+	 <string name="report_an_error_message">Do you want to report an error in %1$s ?</string>
+	 <string name="report_an_error_button">Report an error</string>
+	 <string name="reporting_error_occured_toast">An error occurred while trying to report word error!</string>
+	 <string name="port_existing_personalizations">Do you want to port existing words personalizations to the new account?.</string>
+	 <string name="no_network_dialog_message">No network connection! Would you like to connect with Internet?</string>
+	 <string name="sign_in_to_sync">Please sign in to be able to synchronize personalizations.</string>
+	 <string name="log_in">Log in</string>
+	 <string name="save_button">Save</string>
+	 <string name="connect_button">Connect</string>
+	 <string name="trying_to_connect_failed">Trying to connect to the Internet failed!</string>
+	 <string name="trying_to_connect_failed_emergancy">Trying to connect to the Internet failed! Emergency Mode.</string>
+	 <string name="cannot_add_post_toast">You cannot add post without the Internet connection!</string>
+	 <string name="cannot_load_word_details_toast">Couldn&#8217;t load word details!</string>
+	 <string name="word_details_loading_cancelled_toast">You have cancelled word details loading!</string>
+	 <string name="emergancy_mode">Emergency Mode</string>
+	 <string name="prefere_online_button">Prefer Online</string>
+	 <string name="sync_now_button">Sync Now</string>
+	 <string name="want_to_sync_personalizations">Do you want to synchronize personalizations now?</string>
+	 <string name="yes_sync_now_button">Yes, sync now!</string>
+	 <string name="posts_synced_toast">Posts for current word has been synced.</string>
+	 <string name="error_while_syncing_posts">An error occurred while synchronizing posts for current word.</string>
+	 <string name="posts_saved_toast">Posts saved successfully.</string>
+ 	 <string name="error_while_saving_posts">An error occurred while saving post its for current user. Check if you are logged in!</string>
+	 <string name="good_answer_toast">Good Answer :)</string>
+	 <string name="game_finished_toast">Game finished!</string>
+	 <string name="wrong_answer_toast">Wrong Answer :(</string>
+	 <string name="error_while_searching_word">An error occurred while searching word in online database&#8230;</string>
+	 <string name="error_while_switching_accounts">An error occurred while switching between accounts.</string>
+	 <string name="no_forgotten_words_found">No forgotten words has been found. Try sync or start learning first :)</string>
+	 <string name="some_forgotten_loading_toast">Some forgotten words details are loading from online service&#8230;</string>
+	 <string name="email_or_pass_incorrect">Email or password is incorrect! Please try again.</string>
+	 <string name="anonymous_user_toast">You are using the app as anonymous user. It is advised to create personalized account in order to not lose your learning progress.</string>
+	 <string name="cannot_sync_personalizations">No network connection, couldn&#8217;t synchronize personalizations now!</string>
+	 <string name="passwords_do_not_match">Passwords don&#8217;t match.</string>
+	 <string name="email_not_valid">"Email address is not valid.</string>
+	 <string name="name_fields_required">First Name and Surname fields are required.</string>
+	 <string name="error_while_saving_account">An error occurred while trying to save new account in database on server&#8230;</string>
+	 <string name="error_while_saving_post">An error occurred while trying to save your post in database.</string>
+	 <string name="word_id_bad">Word identifier is bad!</string>
+	 <string name="cannot_find_word_details_toast">Couldn&#8217;t find word details locally. Trying to load them from online service.</string>
+	 <string name="connect_internet_to_download_words">Please connect with internet to download words!</string>
+	 <string name="database_does_not_contain_categories">Database doesn&#8217;t contain wordset categories, trying to load wordset categories from online web service.</string>
+	 <string name="database_does_not_contain_categories_emergancy_mode">Database doesn&#8217;t contain wordset categories! Emergency mode.</string>
+	 <string name="database_does_not_contain_wordsets">Database doesn&#8217;t contain wordsets, trying to load wordsets from online web service.</string>
+	 <string name="database_does_not_contain_wordsets_emergancy_mode">Database doesn&#8217;t contain wordsets! Emergency mode.</string>
+	 <string name="problem_with_internet_connection">There was a problem with Internet connection!</string>
+	 <string name="have_not_selected_words">You haven&#8217;t selected any words.</string>
+	 <string name="forgotten_not_saved_yet">Forgotten words hasn&#8217;t been saved on device yet.</string>
+	 <string name="wordset_words_not_synced_yet">Wordset words hasn&#8217;t been synchronized yet.</string>
+	 <string name="words_not_synced_yet">Words hasn&#8217;t been synchronized yet.</string>
+	 <string name="swipe_left_to_remove_item">Swipe left to remove item.</string>
+	 <string name="no_word_selected">No word has been salected.</string>
+	 <string name="words_reloaded_after_syncing">Words reloaded after syncing.</string>
+	 <string name="downloading_notification_title">Downloading %1$s&#8230;</string>
+	 <string name="downloading_in_progress">Downloading in progress&#8230;</string>
+	 <string name="download_complete">Download complete.</string>
+	 <string name="downloading_in_proress_count">Downloading in progress %1$d/%2$d.</string>
+	 <string name="rating_message">If you like the app %1$s, take a moment to give us positive rating. Thank you for your support!</string>
+	 <string name="rate_app">Rate app %1$s.</string>
+	 <string name="remember_me_later">Remind me later</string>
+	 <string name="no_thanks">No, thank you.</string>
+	 <string name="select_all">SELECT ALL</string>
+	 <string name="syncing_words_personalizations">Personalizations of words synchronization&#8230;</string>
+	 <string name="syncing_personalizations">Personalizations synchronization.</string>
+	 <string name="personalizations_synced">Personalizations have been synchronized.</string>
+	 <string name="categories">Categories</string>
+	 <string name="downloading_words_data">Downloading words data&#8230;</string>
+	 <string name="initializing_download">Download initialization&#8230;</string>
+	 <string name="word_details">Word Details</string>
+	 <string name="word_themes">Word Themes</string>
+	 <string name="themes">Themes</string>
+	 <string name="download_complete_successfully">Download complete successfully!</string>
+	 <string name="download_in_progress_info">Words %1$d/%2$d have been downloaded.</string>
+	 <string name="turn_off_prefer_online_prefs">Turn off &#8216;Prefere Online&#8217; in app settings in order to use the app in Offline mode.</string>
+	 <string name="simple_online_access_isnt_possible_now">Online access to words isn&#8217;t possible now. Check your Internet connection!</string>
+	 <string name="words_not_saved_locally">Offline access impossible. You have not saved any words locally!</string>
+	 <string name="words_not_saved_locally_trying_online">Offline access impossible due to the lack of words. Trying to load words in Online mode&#8230;</string>
+	 <string name="loading_words_in_emergancy">Couldn&#8217;t get access to the words. Loading words in emergency mode.</string>
+	 <string name="no_email_clients">There are no email clients installed.</string>
+	 <string name="send_feedback">Send feedback&#8230;</string>
+	 <string name="send_feedback_label">Have you found an error in the application? Would you do something differently? Enter here your remarks on the application, the proposed changes. We are open to any suggestions for improvement.</string>
+	 <string name="send_feedback_button">Send your feedback</string>
+	 <string name="send_feedback_text">Place for your remarks&#8230;</string>
+	 <string name="list_of_words_header">List Of Words</string>
+	 <string name="purchase_info">Here you can donate our language project!\nIn exchange you will get free of ads app for 1 year period.</string>
+	 <string name="donate">Donate app!</string>
+	 <string name="please_wait">Please wait&#8230;</string>
+ 	 <string name="pay_now">Pay now!</string>
+	 <string name="ads_free_valid_thru">Ads Free - valid thru</string>
+	 <string name="paid_up_valid_thru">Elector.pl Paid Up Account - valid thru</string>
+	 <string name="service_no_available">service no available</string>
+ 	 <string name="menu_settings">Settings</string>
+	 <string name="sound_volume">Sound Volume</string>
+	 <string name="sound_volume_summary">Speech recording volume settings.</string>
+	 <string name="enable_pronunciation">Enable Pronunciation</string>
+	 <string name="enable_pronunciation_summary">Turn on/off the pronunciation of words.</string>
+	 <string name="sound_settings">Sound Settings</string>
+	 <string name="language_settings">Language Settings</string>
+	 <string name="native_language_title">Native Language</string>
+	 <string name="native_language_summary">Select your native language.</string>
+	 <string name="menu_language_title">Menu Language</string>
+	 <string name="menu_language_summary">Select menu language.</string>
+	 <string name="application_settings">Application Settings</string>
+	 <string name="sync_settings">Synchronization Settings</string>
+	 <string name="sync_settings_summary">Customize words synchronization.</string>
+	 <string name="notification_settings">Notification Settings</string>
+	 <string name="notification_settings_summary">Customize app notifications, widgets.</string>
+	 <string name="native_language_change_alert">You are going to change native language. If you don&#8217;t want to lose your personalizations please sync them before. If you still want to continue the operation press &#8216;OK&#8217;, else &#8216;Cancel&#8217;.</string>
+	 <string name="change_native_button">OK, change now!</string>
+	 <string name="cancel_native_change_button">Cancel</string>
+	 <string name="word_image">Word Image.</string>
+	 <string name="word_speech_recording">Word speech recording.</string>
+	 <string name="hint_word_speech_recording">Hint word speech recording.</string>
+	 <string name="button_next">Button next.</string>
+	 <string name="answer_correctness_indicator">Answer correctness indicator.</string>
+	 <string name="connect_and_sync">Connect &amp; Sync</string>
+	 <string name="user_photo">User photo.</string>
+	 <string name="bad_answer_button">I don&#8217;t know word button.</string>
+	 <string name="neutral_answer_button">so-so button.</string>
+	 <string name="good_answer_button">I know word very well button.</string>
+	 <string name="answer_view">Answer view.</string>
+	 <string name="signup_with_fb">Sign up with Facebook!</string>
+	 <string name="or_fill_sign_up_form">... or fill sign up form ...</string>
+	 <string name="title_facebook_login">Sign up with Facebook</string>
+	 <string name="password_not_correct">Password is too weak.</string>
+	 <string name="sign_up_with_fb_header">Type in your new password to log in to the app.</string>
+	 <string name="new_password">New Password:</string>
+	 <string name="forgotten_words_syncing">Forgotten words syncing...</string>
+	 <string name="remember_me_words_syncing">Remember me words syncing...</string>
+	 <string name="learned_words_syncing">Learned words syncing...</string>
+	 <string name="learning_history_syncing">Learning history syncing...</string>
+	 <string name="learning_statistics_syncing">Learning statistics syncing...</string>
+</resources>

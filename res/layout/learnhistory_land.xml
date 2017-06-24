@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+   android:orientation="vertical"
+   android:id="@+id/historyListLinear"
+   android:layout_width="match_parent"
+   android:layout_height="match_parent"
+   android:background="@drawable/london">
+    <TextView 
+            android:id="@+id/historyHeadline"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/learnhistory_header"
+            android:textSize="20sp"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginBottom="15dp"
+            android:textColor="@+drawable/buttonColor"
+    />
+    <ScrollView
+	    android:id="@+id/historyScrollView"
+	    android:layout_height="match_parent"
+	    android:layout_width="match_parent">
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="native_languages">
+        <item>Polish</item>
+        <item>German</item>
+        <item>French</item>
+        <item>Spanish</item>
+        <item>Italian</item>
+        <item>Russian</item>
+        <item>Portugues</item>
+        <item>Turkish</item>
+        <item>Arabic</item>
+    </string-array>
+    <string-array name="native_languages_codes">
+        <item>pl</item>
+        <item>de</item>
+        <item>fr</item>
+        <item>es</item>
+        <item>it</item>
+        <item>ru</item>
+        <item>pt</item>
+        <item>tr</item>
+        <item>ar</item>
+    </string-array>
+    <string-array name="menu_languages">
+        <item>English</item>
+        <item>Polish</item>
+        <item>Arabic</item>
+    </string-array>
+    <string-array name="menu_languages_codes">
+        <item>en</item>
+        <item>pl</item>
+        <item>ar</item>
+    </string-array>
+</resources>

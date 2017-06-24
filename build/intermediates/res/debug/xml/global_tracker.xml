@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="TypographyDashes">
+ 
+<!-- the Local LogLevel for Analytics -->
+<string name="ga_logLevel">verbose</string>
+ 
+<!-- how often the dispatcher should fire -->
+<integer name="ga_dispatchPeriod">30</integer>
+ 
+<!-- Treat events as test events and don't send to google -->
+<bool name="ga_dryRun">false</bool>
+ 
+<!-- The screen names that will appear in reports -->
+<string name="pl.electoroffline.CartonsActivity">Cartons Activity</string>
+<string name="pl.electoroffline.DictActivity">Dict Activity</string>
+<string name="pl.electoroffline.FlashCardsActivity">FlashCards Activity</string>
+<string name="pl.electoroffline.ForgottenFragment">Forgotten Fragment</string>
+<string name="pl.electoroffline.HistoryActivity">History Activity</string>
+<string name="pl.electoroffline.HistoryActivity">History Activity</string>
+<string name="pl.electoroffline.LearnedWordsFragment">Learned Words Fragment</string>
+<string name="pl.electoroffline.ListeningActivity">Listening Activity</string>
+<string name="pl.electoroffline.ListOfWordsActivity">ListOfWords Activity</string>
+<string name="pl.electoroffline.LogInActivity">LogIn Activity</string>
+<string name="pl.electoroffline.MainFragment">Main Fragment</string>
+<string name="pl.electoroffline.MoneyHistoryActivity">MoneyHistory Activity</string>
+<string name="pl.electoroffline.MoreApps Fragment">MoreApps Fragment</string>
+<string name="pl.electoroffline.PresentationActivity">Presentation Activity</string>
+<string name="pl.electoroffline.ProfileInfoFragment">ProfileInfoFragment</string>
+<string name="pl.electoroffline.RememberMeFragment">RememberMe Fragment</string>
+<string name="pl.electoroffline.RepetitionActivity">Repetition Activity</string>
+<string name="pl.electoroffline.SelectByLevelActivity">SelectByLevel Activity</string>
+<string name="pl.electoroffline.SignUpActivity">SignUp Activity</string>
+<string name="pl.electoroffline.TaskActivity">Task Activity</string>
+<string name="pl.electoroffline.WordDetailsFragment">WordDetails Fragment</string>
+<string name="pl.electoroffline.WordsetActivity">Wordset Activity</string>
+<string name="pl.electoroffline.WordsetCategoriesFragment">WordsetCategories Fragment</string>
+<string name="pl.electoroffline.WordsetsListActivity">WordsetsList Activity</string>
+</resources><!-- From: file:/Users/michzio/Documents/android/ElectorOffline/res/xml/global_tracker.xml -->

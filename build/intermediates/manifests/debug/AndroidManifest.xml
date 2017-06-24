@@ -1,0 +1,487 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="pl.electoroffline"
+    android:versionCode="13"
+    android:versionName="2.0.8" >
+
+    <uses-sdk
+        android:minSdkVersion="7"
+        android:targetSdkVersion="21" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="com.android.vending.BILLING" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.VOICE_RECOGNITION" />
+    <uses-permission android:name="android.permission.MIC" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+
+    <application
+        android:name="pl.electoroffline.ElectorApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/favicon"
+        android:label="@string/app_name" >
+        <activity
+            android:name="pl.electoroffline.SplashActivity"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.Black.NoTitleBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="pl.electoroffline.MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.AppCompat.Light" >
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data android:mimeType="vnd.android.cursor.item/vnd.android.main" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="pl.electoroffline.LogInActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Black.NoTitleBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data android:mimeType="vnd.android.cursor.item/vnd.android.login" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="pl.electoroffline.SignUpActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Black.NoTitleBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data android:mimeType="vnd.android.cursor.item/vnd.android.signup" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="pl.electoroffline.WordsetCategoriesActivity"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.AppCompat.Light" >
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data android:mimeType="vnd.android.cursor.item/vnd.android.wordscategories" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="pl.electoroffline.WordsetsListActivity"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.AppCompat.Light" >
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data android:mimeType="vnd.android.cursor.item/vnd.android.wordsetslist" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="pl.electoroffline.SelectByLevelActivity"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.Black.NoTitleBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data android:mimeType="vnd.android.cursor.item/vnd.android.selectbylevel" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="pl.electoroffline.WordsetActivity"
+            android:label="@string/app_name"
+            android:launchMode="singleTop"
+            android:theme="@style/Theme.AppCompat.Light" >
+"
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data android:mimeType="vnd.android.cursor.item/vnd.android.wordset" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="pl.electoroffline.ListeningActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.Light" >
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data android:mimeType="vnd.android.cursor.item/vnd.android.listening" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="pl.electoroffline.CartonsActivity"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.AppCompat.Light" >
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data android:mimeType="vnd.android.cursor.item/vnd.android.cartons" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="pl.electoroffline.ListOfWordsActivity"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.Black.NoTitleBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data android:mimeType="vnd.android.cursor.item/vnd.android.listofwords" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="pl.electoroffline.RepetitionActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.Light" >
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data android:mimeType="vnd.android.cursor.item/vnd.android.repetition" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="pl.electoroffline.PresentationActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.Light" >
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data android:mimeType="vnd.android.cursor.item/vnd.android.presentation" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="pl.electoroffline.FlashCardsActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.Light" >
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data android:mimeType="vnd.android.cursor.item/vnd.android.flashcards" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="pl.electoroffline.SimpleRepetitionActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.Light" >
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data android:mimeType="vnd.android.cursor.item/vnd.android.simplerepetition" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="pl.electoroffline.ChoosingActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.Light" >
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data android:mimeType="vnd.android.cursor.item/vnd.android.wybieranie" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="pl.electoroffline.SpeakingActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.Light" >
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data android:mimeType="vnd.android.cursor.item/vnd.android.speaking" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="pl.electoroffline.DictActivity"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.AppCompat.Light" >
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data android:mimeType="vnd.android.cursor.item/vnd.android.dict" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="pl.electoroffline.ProfileMainActivity"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.Black.NoTitleBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data android:mimeType="vnd.android.cursor.item/vnd.android.profilemain" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="pl.electoroffline.ProfileInfoActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.Light" >
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data android:mimeType="vnd.android.cursor.item/vnd.android.profileinfo" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="pl.electoroffline.ProfileStatsActivity"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.Black.NoTitleBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data android:mimeType="vnd.android.cursor.item/vnd.android.profilestats" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="pl.electoroffline.HistoryActivity"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.Black.NoTitleBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data android:mimeType="vnd.android.cursor.item/vnd.android.history" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="pl.electoroffline.MoneyHistoryActivity"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.Black.NoTitleBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data android:mimeType="vnd.android.cursor.item/vnd.android.moneyhistory" />
+            </intent-filter>
+        </activity>
+
+        <!--
+        <activity android:name="RememberMeActivity"
+                  android:label="@string/app_name"
+                  android:theme="@android:style/Theme.Black.NoTitleBar">
+		        <intent-filter>
+		                <action android:name="android.intent.action.VIEW" />
+		                <category android:name="android.intent.category.DEFAULT" />
+		                <data android:mimeType="vnd.android.cursor.item/vnd.android.rememberme" />
+		        </intent-filter>
+        </activity>
+        <activity android:name="ForgottenActivity"
+                  android:label="@string/app_name"
+                  android:theme="@android:style/Theme.Black.NoTitleBar">
+	           <intent-filter>
+	                <action android:name="android.intent.action.VIEW" />
+	                <category android:name="android.intent.category.DEFAULT" />
+	                <data android:mimeType="vnd.android.cursor.item/vnd.android.forgotten" />
+	            </intent-filter>
+        </activity>
+        <activity android:name="TaskActivity"
+                  android:label="@string/app_name"
+                  android:theme="@android:style/Theme.Black.NoTitleBar">
+	           <intent-filter>
+	                <action android:name="android.intent.action.VIEW" />
+	                <category android:name="android.intent.category.DEFAULT" />
+	                <data android:mimeType="vnd.android.cursor.item/vnd.android.task" />
+	           </intent-filter>
+        </activity>
+        -->
+        <activity
+            android:name="pl.electoroffline.WordDetailsActivity"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.AppCompat.Light" >
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data android:mimeType="vnd.android.cursor.item/vnd.android.worddetails" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <!-- Google Analytics Version v4 needs this value for easy tracking -->
+        <meta-data
+            android:name="com.google.android.gms.analytics.globalConfigResource"
+            android:resource="@xml/global_tracker" />
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/facebook_app_id" />
+
+        <activity
+            android:name="com.google.android.gms.ads.AdActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize" />
+
+        <!-- SQLite Database ContentProviders -->
+        <provider
+            android:name="pl.elector.database.ForgottenProvider"
+            android:authorities="pl.elector.provider.ForgottenProvider"
+            android:exported="false" >
+        </provider>
+        <provider
+            android:name="pl.elector.database.ForgottenNotSyncedProvider"
+            android:authorities="pl.elector.provider.ForgottenNotSyncedProvider"
+            android:exported="false" >
+        </provider>
+        <provider
+            android:name="pl.elector.database.LearnedWordsProvider"
+            android:authorities="pl.elector.provider.LearnedWordsProvider"
+            android:exported="false" >
+        </provider>
+        <provider
+            android:name="pl.elector.database.LearnedWordsNotSyncedProvider"
+            android:authorities="pl.elector.provider.LearnedWordsNotSyncedProvider"
+            android:exported="false" >
+        </provider>
+        <provider
+            android:name="pl.elector.database.PostItProvider"
+            android:authorities="pl.elector.provider.PostItProvider"
+            android:exported="false" >
+        </provider>
+        <provider
+            android:name="pl.elector.database.ProfileProvider"
+            android:authorities="pl.elector.provider.ProfileProvider"
+            android:exported="false" >
+        </provider>
+        <provider
+            android:name="pl.elector.database.RememberMeProvider"
+            android:authorities="pl.elector.provider.RememberMeProvider"
+            android:exported="false" >
+        </provider>
+        <provider
+            android:name="pl.elector.database.RememberMeNotSyncedProvider"
+            android:authorities="pl.elector.provider.RememberMeNotSyncedProvider"
+            android:exported="false" >
+        </provider>
+        <provider
+            android:name="pl.elector.database.SentenceProvider"
+            android:authorities="pl.elector.provider.SentenceProvider"
+            android:exported="false" >
+        </provider>
+        <provider
+            android:name="pl.elector.database.SolutionContentProvider"
+            android:authorities="pl.elector.provider.SolutionContentProvider"
+            android:exported="false" >
+        </provider>
+        <provider
+            android:name="pl.elector.database.SolutionProvider"
+            android:authorities="pl.elector.provider.SolutionProvider"
+            android:exported="false" >
+        </provider>
+        <provider
+            android:name="pl.elector.database.TaskCategoryProvider"
+            android:authorities="pl.elector.provider.TaskCategoryProvider"
+            android:exported="false" >
+        </provider>
+        <provider
+            android:name="pl.elector.database.TaskProvider"
+            android:authorities="pl.elector.provider.TaskProvider"
+            android:exported="false" >
+        </provider>
+        <provider
+            android:name="pl.elector.database.UserWordsetProvider"
+            android:authorities="pl.elector.provider.UserWordsetProvider"
+            android:exported="false" >
+        </provider>
+        <provider
+            android:name="pl.elector.database.UserWordsetWordsProvider"
+            android:authorities="pl.elector.provider.UserWordsetWordsProvider"
+            android:exported="false" >
+        </provider>
+        <provider
+            android:name="pl.elector.database.WordProvider"
+            android:authorities="pl.elector.provider.WordProvider"
+            android:exported="false" >
+        </provider>
+        <provider
+            android:name="pl.elector.database.WordsetCategoryProvider"
+            android:authorities="pl.elector.provider.WordsetCategoryProvider"
+            android:exported="false" >
+        </provider>
+        <provider
+            android:name="pl.elector.database.WordsetProvider"
+            android:authorities="pl.elector.provider.WordsetProvider"
+            android:exported="false" >
+        </provider>
+        <provider
+            android:name="pl.elector.database.WordsetWordsProvider"
+            android:authorities="pl.elector.provider.WordsetWordsProvider"
+            android:exported="false" >
+        </provider>
+
+        <service android:name="pl.elector.service.WordsLoaderService" />
+        <service android:name="pl.elector.service.SyncPersonalizationService" />
+
+        <!--
+        BILLING SERVICE RECEIVER 
+        <service android:name="com.dungeons.BillingService" 
+            	 android:process="pl.elector.processs"
+            	 android:label="Words Loader Service"
+            	 android:icon="@drawable/favicon" />
+    	<receiver android:name="com.dungeons.BillingReceiver">
+      		<intent-filter>
+        		<action android:name="com.android.vending.billing.IN_APP_NOTIFY" />
+        		<action android:name="com.android.vending.billing.RESPONSE_CODE" />
+        		<action android:name="com.android.vending.billing.PURCHASE_STATE_CHANGED" />
+      		</intent-filter>
+   	 	</receiver>
+        -->
+    </application>
+
+</manifest>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#FFFFFF"
+    android:id="@+id/relativeView1"
+    >
+<ImageView  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content"
+    android:layout_marginTop="130dp"
+    android:src="@drawable/electorbig"
+    android:maxHeight="55px"
+    />
+ </RelativeLayout><!-- From: file:/Users/michzio/Documents/android/ElectorOffline/res/layout-sw360dp-land/splash.xml -->

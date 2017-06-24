@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+   android:orientation="vertical"
+   android:layout_width="fill_parent"
+   android:layout_height="fill_parent"
+   android:background="#FFFFFF"
+   android:id="@+id/taskListLinear"
+   >
+    <TextView 
+            android:id="@+id/taskHeadline"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/your_tasks"
+            android:textSize="20sp"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="15dp"
+            android:textColor="@+drawable/buttonColor"
+    />
+    <TextView 
+            android:id="@+id/taskDefault"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/no_task"
+            android:textSize="14sp"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="15dp"
+            android:textColor="#333333"
+            android:visibility="gone"
+    />
+    <ScrollView
+    android:id="@+id/taskScrollView"
+    android:layout_height="fill_parent"
+    android:layout_width="fill_parent">
+    </ScrollView>
+</LinearLayout>

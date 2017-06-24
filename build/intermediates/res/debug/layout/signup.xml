@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+   android:orientation="vertical"
+   android:layout_width="fill_parent"
+   android:layout_height="fill_parent"
+   android:background="@drawable/bigben"
+   >
+ <TextView 
+   android:layout_width="fill_parent"
+   android:layout_height="wrap_content"
+   android:text="@string/first_name"
+   android:layout_marginLeft="30dp"
+   android:layout_marginRight="30dp"
+   android:layout_marginTop="25dp"
+   android:textColor="#2a2929"
+   />
+<EditText 
+   android:id="@+id/first_name"
+   android:layout_width="fill_parent"
+   android:layout_height="wrap_content"
+   android:inputType="text"
+   android:text=""
+   android:layout_marginLeft="30dp"
+   android:layout_marginRight="30dp"
+   />
+   <TextView 
+   android:layout_width="fill_parent"
+   android:layout_height="wrap_content"
+   android:text="@string/last_name"
+   android:layout_marginLeft="30dp"
+   android:layout_marginRight="30dp"
+   android:textColor="#2a2929"
+   />
+<EditText 
+   android:id="@+id/last_name"
+   android:layout_width="fill_parent"
+   android:layout_height="wrap_content"
+   android:inputType="text"
+   android:text=""
+   android:layout_marginLeft="30dp"
+   android:layout_marginRight="30dp"
+   />
+<TextView 
+   android:layout_width="fill_parent"
+   android:layout_height="wrap_content"
+   android:text="@string/login_email"
+   android:layout_marginLeft="30dp"
+   android:layout_marginRight="30dp"
+   android:textColor="#2a2929"
+   />
+<EditText 
+   android:id="@+id/email_address"
+   android:layout_width="fill_parent"
+   android:layout_height="wrap_content"
+   android:inputType="textEmailAddress"
+   android:text=""
+   android:layout_marginLeft="30dp"
+   android:layout_marginRight="30dp"
+   />
+<TextView 
+   android:layout_width="fill_parent"
+   android:layout_height="wrap_content"
+   android:text="@string/password"
+   android:layout_marginLeft="30dp"
+   android:layout_marginRight="30dp"
+   android:textColor="#2a2929"
+   />
+<EditText 
+   android:id="@+id/password_input"
+   android:layout_width="fill_parent"
+   android:layout_height="wrap_content"
+   android:inputType="textPassword"
+   android:text=""
+   android:layout_marginLeft="30dp"
+   android:layout_marginRight="30dp"
+   />
+   <TextView 
+   android:layout_width="fill_parent"
+   android:layout_height="wrap_content"
+   android:text="@string/confirm_password"
+   android:layout_marginLeft="30dp"
+   android:layout_marginRight="30dp"
+   android:textColor="#2a2929"
+   />
+<EditText 
+   android:id="@+id/password_input2"
+   android:layout_width="fill_parent"
+   android:layout_height="wrap_content"
+   android:inputType="textPassword"
+   android:text=""
+   android:layout_marginLeft="30dp"
+   android:layout_marginRight="30dp"
+   />
+ <Button 
+   android:id="@+id/signupBtn"
+   android:layout_width="fill_parent"
+   android:layout_height="wrap_content"
+   android:text="@string/signup"
+   android:layout_marginLeft="30dp"
+   android:layout_marginRight="30dp"
+   android:textColor="#FFFFFF"
+   android:background="@+drawable/rounded_button"
+    android:layout_marginTop="10dp"
+    android:paddingTop="15dp"
+    android:paddingBottom="15dp"
+   />
+</LinearLayout><!-- From: file:/Users/michzio/Documents/android/ElectorOffline/res/layout/signup.xml -->

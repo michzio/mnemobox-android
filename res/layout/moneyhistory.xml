@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+   android:orientation="vertical"
+   android:layout_width="match_parent"
+   android:layout_height="match_parent"
+   android:background="@drawable/bigben"
+   android:id="@+id/moneyHistoryListLinear"
+   >
+    <TextView 
+            android:id="@+id/moneyHistoryHeadline"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/moneyhistory_header"
+            android:textSize="20sp"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="15dp"
+            android:textColor="@+drawable/buttonColor"
+    />
+    <ScrollView
+    android:id="@+id/moneyHistoryScrollView"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+    </ScrollView>
+</LinearLayout>

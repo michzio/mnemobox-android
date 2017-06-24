@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- From: file:/Users/michzio/Documents/android/ElectorOffline/res/values-normal-land/main.xml -->
+    <eat-comment />
+
+    <bool name="has_two_panes">false</bool>
+    <!-- From: file:/Users/michzio/Documents/android/ElectorOffline/res/values-normal-land/kartoniki.xml -->
+    <eat-comment />
+
+    <item name="cartons" type="layout">@layout/cartons_land</item>
+    <!-- From: file:/Users/michzio/Documents/android/ElectorOffline/res/values-normal-land/dict_drawer.xml -->
+    <eat-comment />
+
+    <item name="dict_drawer" type="layout">@layout/dict_drawer_land</item>
+    <!-- From: file:/Users/michzio/Documents/android/ElectorOffline/res/values-normal-land/feedback.xml -->
+    <eat-comment />
+
+    <item name="feedback" type="layout">@layout/feedback_land</item>
+    <!-- From: file:/Users/michzio/Documents/android/ElectorOffline/res/values-normal-land/learnhistory.xml -->
+    <eat-comment />
+
+    <item name="learnhistory" type="layout">@layout/learnhistory_land</item>
+    <!-- From: file:/Users/michzio/Documents/android/ElectorOffline/res/values-normal-land/main.xml -->
+    <eat-comment />
+
+    <item name="main" type="layout">@layout/main_land</item>
+    <!-- From: file:/Users/michzio/Documents/android/ElectorOffline/res/values-normal-land/moneyhistory.xml -->
+    <eat-comment />
+
+    <item name="moneyhistory" type="layout">@layout/moneyhistory_land</item>
+    <!-- From: file:/Users/michzio/Documents/android/ElectorOffline/res/values-normal-land/moreapps.xml -->
+    <eat-comment />
+
+    <item name="moreapps" type="layout">@layout/moreapps_land</item>
+    <!-- From: file:/Users/michzio/Documents/android/ElectorOffline/res/values-normal-land/profilemain.xml -->
+    <eat-comment />
+
+    <item name="profilemain" type="layout">@layout/profilemain_land</item>
+    <!-- From: file:/Users/michzio/Documents/android/ElectorOffline/res/values-normal-land/selectbylevel.xml -->
+    <eat-comment />
+
+    <item name="selectbylevel" type="layout">@layout/selectbylevel_land</item>
+    <!-- From: file:/Users/michzio/Documents/android/ElectorOffline/res/values-normal-land/splash.xml -->
+    <eat-comment />
+
+    <item name="splash" type="layout">@layout/splash_land</item>
+    <!-- From: file:/Users/michzio/Documents/android/ElectorOffline/res/values-normal-land/task.xml -->
+    <eat-comment />
+
+    <item name="task" type="layout">@layout/task_land</item>
+    <!-- From: file:/Users/michzio/Documents/android/ElectorOffline/res/values-normal-land/word_details.xml -->
+    <eat-comment />
+
+    <item name="word_details" type="layout">@layout/word_details_land</item>
+    <!-- From: file:/Users/michzio/Documents/android/ElectorOffline/res/values-normal-land/wordscategories.xml -->
+    <eat-comment />
+
+    <item name="wordscategories" type="layout">@layout/wordscategories_land</item>
+    <!-- From: file:/Users/michzio/Documents/android/ElectorOffline/res/values-normal-land/wordset.xml -->
+    <eat-comment />
+
+    <item name="wordset" type="layout">@layout/wordset_land</item>
+
+</resources>

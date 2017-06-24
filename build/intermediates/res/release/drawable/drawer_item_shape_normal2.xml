@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+<!-- This is the main color -->
+<!-- This is the line -->
+    <item>
+      <shape>
+             <solid android:color="@android:color/transparent" />
+      </shape>
+    </item>
+</layer-list><!-- From: file:/Users/michzio/Documents/android/ElectorOffline/res/drawable/drawer_item_shape_normal2.xml -->

@@ -1,0 +1,73 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="match_parent"
+  android:layout_height="wrap_content"
+  android:orientation="horizontal"
+  android:background="@drawable/button_shape"
+  android:clickable="true"
+  android:focusable="true"
+  android:focusableInTouchMode="true"
+  android:padding="10dp">
+		<ImageView
+        android:id="@+id/audioBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="50dp"
+        android:background="@+drawable/audio_button"
+        />
+		<CheckBox
+        android:id="@+id/wordCheckbox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_marginRight="50dp"
+        android:text=""
+        android:visibility="gone" />
+	     <LinearLayout 
+	     android:layout_width="wrap_content"
+	     android:layout_height="wrap_content"
+	     android:layout_marginTop="0dp"
+	     android:layout_marginLeft="10dp"
+	     android:orientation="vertical">
+		   <TextView 
+		        android:id="@+id/foreignWord"
+		        android:layout_width="245dp"
+		        android:layout_height="wrap_content"
+		        android:text=""
+		        android:textColor="@+drawable/buttonColor"
+		        android:textSize="16sp"
+		        android:maxWidth="245dp"
+		    />
+	       <TextView 
+	            android:id="@+id/transcription"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:text=""
+	            android:textSize="16sp"
+	            android:textColor="#6699FF"
+	            android:background="#F5F9FA"
+	      />
+		  <TextView 
+		        android:id="@+id/nativeWord"
+		        android:layout_width="fill_parent"
+		        android:layout_height="wrap_content"
+		        android:text=""
+		        android:textColor="#333333"
+		        android:textSize="16sp"
+		        android:maxWidth="270dp"
+		   />
+</LinearLayout>  
+<ImageView
+android:id="@+id/wordImage"
+
+android:layout_width="240dp"
+android:layout_height="150dp"
+android:layout_marginTop="80dp"
+android:layout_centerHorizontal="true"
+android:maxWidth="240dp"
+android:maxHeight="150dp"
+android:adjustViewBounds="true"
+android:visibility="visible"
+/>
+</RelativeLayout>
+<!-- From: file:/Users/michzio/Documents/android/ElectorOffline/res/layout/word_item.xml -->

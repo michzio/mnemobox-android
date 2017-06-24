@@ -1,0 +1,71 @@
+<RelativeLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android" 
+    android:id="@android:id/widget_frame" 
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:paddingBottom="5dp" 
+    android:paddingLeft="15dp" 
+    android:paddingRight="10dp" 
+    android:paddingTop="5dp">
+	<TextView 
+   	 	android:id="@+id/seekBarPrefUnitsRight" 
+    	android:layout_width="wrap_content" 
+    	android:layout_height="wrap_content" 
+    	android:layout_alignParentLeft="true" 
+    	android:layout_alignParentTop="true">
+	    
+	</TextView>
+	<TextView 
+	    android:id="@+id/seekBarPrefValue" 
+	    android:layout_width="wrap_content" 
+	    android:layout_height="wrap_content" 
+	    android:layout_toRightOf="@id/seekBarPrefUnitsRight" 
+	    android:gravity="left">
+	</TextView>
+	<TextView 
+	    android:id="@+id/seekBarPrefUnitsLeft" 
+	    android:layout_width="wrap_content" 
+	    android:layout_height="wrap_content" 
+	    android:layout_toRightOf="@id/seekBarPrefValue">
+	</TextView>
+
+	<RelativeLayout
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_alignParentRight="true"
+	    android:layout_below="@+id/seekBarPrefUnitsRight">
+
+	    <TextView
+	        android:id="@+id/seekBarPrefMinValue"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentRight="true"
+	        android:text="left" 
+	        android:layout_marginTop="5dp"
+	        android:layout_marginLeft="10dp">
+	    </TextView>
+	    <LinearLayout 
+	   		 android:id="@+id/seekBarPrefBarContainer" 
+	    	 android:layout_width="fill_parent" 
+	    	 android:layout_height="wrap_content"
+	    	 android:layout_toLeftOf="@+id/seekBarPrefMinValue"
+	   		 android:layout_toRightOf="@+id/seekBarPrefMaxValue">
+		    <pl.electoroffline.ReversedSeekBar
+		        android:id="@+id/seekBarPrefSeekBar"
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        
+		     />
+		</LinearLayout>
+	    <TextView
+	        android:id="@+id/seekBarPrefMaxValue"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentLeft="true"
+	        android:text="right"
+	        android:layout_marginTop="5dp"
+	        android:layout_marginRight="10dp"
+	        >
+	    </TextView>
+	</RelativeLayout>
+</RelativeLayout>

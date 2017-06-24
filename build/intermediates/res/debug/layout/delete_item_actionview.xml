@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:orientation="horizontal"
+  android:id="@+id/deleteItemActionView"
+>
+<Button
+        android:id="@+id/cancelDeletionBtn"
+        android:contentDescription="@string/cancel_deletion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="2dp"
+        android:text="@string/cancel_deletion"
+        android:textColor="#000000"
+        android:gravity="center_horizontal"
+  />
+<Button
+        android:id="@+id/confirmDeletionBtn"
+        android:contentDescription="@string/confirm_deletion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="2dp"
+        android:text="@string/confirm_deletion"
+        android:textColor="#000000"
+        android:gravity="center_horizontal"
+  /> 
+</LinearLayout>
+<!-- From: file:/Users/michzio/Documents/android/ElectorOffline/res/layout/delete_item_actionview.xml -->

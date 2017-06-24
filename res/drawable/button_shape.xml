@@ -1,0 +1,11 @@
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:state_pressed="true" android:drawable="@drawable/button_shape_pressed">
+    </item>
+
+    <item android:state_focused="true" android:drawable="@drawable/button_shape_focused">
+    </item>
+
+    <item android:drawable="@drawable/button_shape_normal">        
+    </item>
+</selector>

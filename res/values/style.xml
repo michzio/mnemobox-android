@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    <style name="dictMenuItem" parent="@style/Widget.AppCompat.ActionButton">
+        <item name="android:textAppearance">@style/TextAppearance.AppCompat.Widget.ActionBar.Menu</item>
+    	<item name="android:textColor">@drawable/buttonColor</item>
+	</style>
+</resources>

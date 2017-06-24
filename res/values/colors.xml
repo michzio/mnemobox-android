@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+     <drawable name="buttonColor">#AB1E35</drawable>
+     <color name="darkGray">#333333</color>
+     <color name="mediumGray">#AAAAAA</color>
+     <color name="transparentGray">#88F5F5F5</color>
+     <color name="lightBlue">#F5F9FA</color>
+     <color name="facebookBlue">#435b9f</color>
+</resources>

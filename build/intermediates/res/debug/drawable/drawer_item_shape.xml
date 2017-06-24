@@ -1,0 +1,11 @@
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+ 
+    <item android:state_pressed="true" android:drawable="@drawable/drawer_item_shape_pressed">
+    </item>
+<!--  DEPRECATED DUE TO USAGE OF EXTENDES drawer_item_shape2
+    <item android:state_focused="true" android:drawable="@drawable/drawer_item_shape_focused">
+    </item>
+-->
+    <item android:drawable="@drawable/drawer_item_shape_normal">        
+    </item>
+</selector><!-- From: file:/Users/michzio/Documents/android/ElectorOffline/res/drawable/drawer_item_shape.xml -->

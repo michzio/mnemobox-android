@@ -1,0 +1,46 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="match_parent"
+  android:layout_height="wrap_content"
+  android:orientation="vertical"
+  android:id="@+id/postItRow" 
+  android:background="@drawable/drawer_item_shape2"
+>
+	<TextView 
+	 android:id="@+id/postText"   
+	 android:layout_width="wrap_content"
+	 android:layout_height="wrap_content"  
+	 android:padding="6dp"  
+	 android:textSize="16sp" >  
+	</TextView> 
+	<LinearLayout 
+	    android:layout_width="match_parent"
+ 		android:layout_height="wrap_content"
+ 		android:orientation="horizontal"
+ 		android:gravity="right"
+ 		android:paddingRight="10dp"
+ 		android:paddingBottom="3dp"
+	    > 
+		<TextView 
+		 android:id="@+id/authorDecoration"   
+		 android:layout_width="wrap_content"
+		 android:layout_height="wrap_content"    
+		 android:textSize="12sp"
+		 android:padding="2dp"
+		 android:text="@string/post_author_decoration" >  
+		</TextView> 
+		<TextView 
+		 android:id="@+id/authorFristName"   
+		 android:layout_width="wrap_content"
+		 android:layout_height="wrap_content" 
+		 android:padding="2dp"  
+		 android:textSize="12sp" >  
+		</TextView> 
+		<TextView 
+		 android:id="@+id/authorLastName"   
+		 android:layout_width="wrap_content"
+		 android:layout_height="wrap_content" 
+		 android:padding="2dp" 
+		 android:textSize="12sp" >  
+		</TextView> 
+	</LinearLayout>
+</LinearLayout>

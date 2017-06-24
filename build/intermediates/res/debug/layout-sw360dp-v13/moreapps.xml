@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/bigben"
+    android:id="@+id/moreappsSwipeLayout"
+    >
+
+<TableLayout 
+android:id="@+id/MoreAppsActivityTable"
+android:layout_centerHorizontal="true"
+android:layout_height="wrap_content"
+android:layout_width="wrap_content"
+android:layout_marginTop="40dp"
+>
+<TableRow android:id="@+id/TableRow01" android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+ <Button
+        android:id="@+id/downloadEnglishBtn"
+        android:contentDescription="@string/english_lang"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:background="@+drawable/favicon"
+        android:layout_margin="6dp"
+        android:gravity="bottom|center_horizontal"
+  />
+ <Button
+        android:id="@+id/downloadGermanBtn"
+        android:contentDescription="@string/german_lang"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:background="@+drawable/de_favicon"
+        android:layout_margin="6dp"
+         android:gravity="bottom|center_horizontal"
+        />
+ </TableRow>
+ <TableRow android:id="@+id/TableRow02" android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+ <Button
+        android:id="@+id/downloadSpanishBtn"
+        android:contentDescription="@string/spanish_lang"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:background="@+drawable/es_favicon"
+        android:layout_margin="6dp"
+       android:gravity="bottom|center_horizontal"
+        />
+  
+  <Button
+        android:id="@+id/downloadItalianBtn"
+        android:contentDescription="@string/italian_lang"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:background="@+drawable/it_favicon" 
+        android:layout_margin="6dp"
+        android:gravity="bottom|center_horizontal"
+        />
+  </TableRow>
+   <TableRow android:id="@+id/TableRow03" android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+ <Button
+        android:id="@+id/downloadFrenchBtn"
+        android:contentDescription="@string/french_lang"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:background="@+drawable/fr_favicon"
+        android:layout_margin="6dp"
+         android:gravity="bottom|center_horizontal"
+        />
+  
+  <Button
+        android:id="@+id/downloadRussianBtn"
+        android:contentDescription="@string/russian_lang"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:background="@+drawable/ru_favicon" 
+        android:layout_margin="6dp"
+        android:gravity="bottom|center_horizontal"
+        />
+  </TableRow>
+</TableLayout>
+</RelativeLayout>
+
+<!-- From: file:/Users/michzio/Documents/android/ElectorOffline/res/layout-sw360dp/moreapps.xml -->

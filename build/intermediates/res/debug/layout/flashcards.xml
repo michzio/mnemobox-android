@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:orientation="vertical"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+android:background="@drawable/bigben"
+ 
+>
+<RelativeLayout
+   android:orientation="vertical"
+   android:layout_width="fill_parent"
+   android:layout_height="fill_parent"
+   android:id="@+id/presentationMainScreen"
+   android:layout_marginTop="-25dp"
+   >
+<ImageView
+        android:id="@+id/flashcard"
+        android:layout_width="320dp"
+        android:layout_height="312dp"
+        android:layout_marginTop="47dp"
+        android:layout_marginRight="0dp"
+        android:background="@+drawable/post_it_white"
+        />
+    <ImageView
+        android:id="@+id/presentationAudioBtn"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="90dp"
+        android:layout_marginLeft="225dp"
+        android:background="@+drawable/audio_button"
+        />
+     
+      <LinearLayout 
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:layout_marginTop="145dp"
+     android:layout_marginLeft="30dp"
+     android:gravity="center"
+     android:orientation="vertical">
+          
+   <TextView 
+            android:id="@+id/presentationWordEN"
+            android:layout_width="245dp"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textColor="@+drawable/buttonColor"
+            android:textSize="28sp"
+            android:maxWidth="250dp"
+             android:gravity="center"
+             android:visibility="gone"
+    />
+      <TextView 
+            android:id="@+id/presentationWordTrans"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textSize="20sp"
+            android:textColor="#6699FF"
+            android:background="#F5F9FA"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:visibility="gone"
+    />
+   <TextView 
+            android:id="@+id/presentationWordPL"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textColor="#333333"
+            android:textSize="25sp"
+            android:maxWidth="270dp"
+             android:gravity="center"
+            android:layout_marginTop="20dp"
+            
+    />
+     </LinearLayout>  
+       <Button 
+        android:id="@+id/reloadCardBtn"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="275dp"
+        android:gravity="center" 
+         android:layout_centerHorizontal="true" 
+        android:background="@+drawable/reload"
+        android:onClick="uncoverFlashCard"
+        />
+     
+     <ImageView
+android:id="@+id/presentationWordImage"
+android:src="#FFFFFF" 
+android:layout_width="240dp"
+android:layout_height="wrap_content"
+android:layout_marginTop="130dp"
+android:layout_marginLeft="30dp"
+android:maxWidth="240dp"
+android:maxHeight="200dp"
+android:adjustViewBounds="true"
+android:visibility="gone"
+/>
+<LinearLayout 
+android:id="@+id/addmob"
+android:orientation="vertical"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:layout_marginTop="0dp"
+android:background="#00000000"
+></LinearLayout>
+            <Button 
+        android:id="@+id/badBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="340dp"
+        android:height="60dp"
+        android:background="@+drawable/bad"
+        />
+             <Button 
+        android:id="@+id/normalBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        
+        android:layout_marginLeft="130dp"
+        android:layout_marginTop="340dp"
+        
+        android:height="60dp"
+        android:background="@+drawable/normal"
+        />
+               <Button 
+        android:id="@+id/goodBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+     
+        android:layout_marginLeft="220dp"
+        android:layout_marginTop="340dp"
+        
+        android:height="60dp"
+       
+        android:background="@+drawable/good"
+        />
+</RelativeLayout>
+<RelativeLayout
+   android:orientation="vertical"
+   android:layout_width="fill_parent"
+   android:layout_height="fill_parent"
+   android:id="@+id/endOfPresentation"
+   android:visibility="gone"
+   >
+            <Button 
+        android:id="@+id/reloadPresentation"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+          android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="150dp"
+         android:text="@string/reload_button"
+        android:height="60dp"
+        android:textColor="#FFFFFF"
+        android:background="@+drawable/rounded_button"
+        android:paddingTop="15dp"
+        android:paddingBottom="15dp"
+        />
+           <Button 
+        android:id="@+id/comebackPresentation"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="235dp"
+         android:text="@string/come_back"
+        android:height="60dp"
+        android:textColor="#FFFFFF"
+        android:background="@+drawable/rounded_button"
+        android:paddingTop="15dp"
+        android:paddingBottom="15dp"
+        />
+   </RelativeLayout>
+</LinearLayout><!-- From: file:/Users/michzio/Documents/android/ElectorOffline/res/layout/flashcards.xml -->

@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:orientation="vertical"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+android:background="@drawable/bigben"
+>
+<RelativeLayout
+   android:orientation="vertical"
+   android:layout_width="fill_parent"
+   android:layout_height="fill_parent"
+   android:id="@+id/presentationMainScreen"
+   >
+  	<ImageView
+        android:id="@+id/presentationAudioBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="50dp"
+        android:background="@+drawable/audio_button"
+     />
+     <LinearLayout 
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:layout_marginTop="25dp"
+     android:layout_marginLeft="30dp"
+     android:orientation="vertical">
+   	 <TextView 
+            android:id="@+id/presentationWordEN"
+            android:layout_width="245dp"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textColor="@+drawable/buttonColor"
+            android:textSize="25sp"
+            android:maxWidth="245dp"
+     />
+     <TextView 
+            android:id="@+id/presentationWordTrans"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textSize="14sp"
+            android:textColor="#6699FF"
+            android:background="#F5F9FA"
+     />
+     <TextView 
+            android:id="@+id/presentationWordPL"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textColor="#333333"
+            android:textSize="20sp"
+            android:maxWidth="270dp"
+      />
+     </LinearLayout>  
+     <ImageView
+	android:id="@+id/presentationWordImage"
+	android:src="#FFFFFF" 
+	android:layout_width="240dp"
+	android:layout_height="wrap_content"
+	android:layout_marginTop="200dp"
+	android:layout_marginLeft="50dp"
+	android:maxWidth="270dp"
+	android:maxHeight="200dp"
+	android:adjustViewBounds="true"
+	/>
+        
+    <RelativeLayout
+   android:orientation="vertical"
+   android:layout_width="fill_parent"
+   android:layout_height="wrap_content"
+   android:id="@+id/odpytywanieTextInputScreen"
+   android:layout_marginTop="450dp"
+   > 
+        
+           <Button 
+        android:id="@+id/recordVoiceBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="145dp"
+        android:height="60dp"  
+        android:background="@+drawable/recording"
+        />
+            <Button 
+        android:id="@+id/recordVoiceOnBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="145dp"    
+        android:height="60dp"
+        android:visibility="gone"
+        android:background="@+drawable/recording_on"
+        />
+       
+       
+               <Button 
+        android:id="@+id/checkInputBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+     
+        android:layout_marginLeft="240dp"
+        android:layout_marginTop="4dp"
+        
+        android:height="60dp"
+       
+        android:background="@+drawable/nextbtn"
+        />
+    </RelativeLayout>
+   <RelativeLayout
+   android:orientation="vertical"
+   android:layout_width="fill_parent"
+   android:layout_height="wrap_content"
+   android:id="@+id/odpytywanieCheckAnswerScreen"
+   android:layout_marginTop="450dp"
+   > 
+            <ImageView 
+        android:id="@+id/odpytywanieViewAnswer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:height="60dp"
+        android:width="160dp"
+        />
+            <Button 
+        android:id="@+id/answerResultOnBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="145dp"    
+        android:height="60dp"
+        android:width="60dp"
+        android:background="@+drawable/round_button"
+        android:textColor="#FFFFFF"
+        />
+       
+               <Button 
+        android:id="@+id/nextWordBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="240dp"
+        android:height="55dp"
+        android:layout_marginTop="4dp"
+        android:textColor="#FFFFFF"
+        android:paddingTop="15dp"
+        android:paddingBottom="15dp"
+        android:background="@+drawable/nextbtn"
+        />
+    </RelativeLayout>
+</RelativeLayout>
+<RelativeLayout
+   android:orientation="vertical"
+   android:layout_width="fill_parent"
+   android:layout_height="fill_parent"
+   android:id="@+id/endOfPresentation"
+   android:visibility="gone"
+   >
+            <Button 
+        android:id="@+id/reloadPresentation"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+          android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="150dp"
+         android:text="@string/reload_button"
+        android:height="60dp"
+        android:textColor="#FFFFFF"
+        android:background="@+drawable/rounded_button"
+        android:paddingTop="15dp"
+        android:paddingBottom="15dp"
+        />
+           <Button 
+        android:id="@+id/comebackPresentation"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="235dp"
+         android:text="@string/come_back"
+        android:height="60dp"
+        android:textColor="#FFFFFF"
+        android:background="@+drawable/rounded_button"
+        android:paddingTop="15dp"
+        android:paddingBottom="15dp"
+        />
+   </RelativeLayout>
+</LinearLayout><!-- From: file:/Users/michzio/Documents/android/ElectorOffline/res/layout-sw360dp/speaking.xml -->
